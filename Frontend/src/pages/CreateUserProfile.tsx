@@ -20,6 +20,7 @@ const CreateUserProfile = () => {
   const [existingUser, setExistingUser] = useState<any>(null);
 
   // Form state
+  //
   const [formData, setFormData] = useState({
     bio: "",
     interests: "",
